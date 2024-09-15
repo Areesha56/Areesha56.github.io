@@ -1,0 +1,449 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('/Areesha56.github.io/images/picture1.jpg'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire hero section */
+    background-position: center; /* Center the image */
+   
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    background-color: #fff;
+    color: #e74c3c;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #eaeaea;
+}
+
+/* Product List */
+.product-list {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 220px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Articles Section */
+.articles-header {
+    background-image: url('/Areesha56.github.io/images/picture4.jpg'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire articles-header section */
+    background-position: center; /* Center the image */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.articles-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  
+    
+}
+
+
+.articles-header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.articles-list {
+    padding: 40px 20px;
+}
+
+.article-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.article-item p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.article-item a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+.read-more {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Shop */
+.shop-header {
+    background-image: url('/Areesha56.github.io/images/picture2.jpg'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire shop-header section */
+    background-position: center; /* Center the image */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.shop-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.shop-header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.cart-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cart-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Contact */
+.contact-header {
+    background-image: url('/Areesha56.github.io/images/picture3.jpg'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire contact-header section */
+    background-position: center; /* Center the image */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.contact-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-info a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form .submit-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+        max-width: 600px;
+        margin: 10px auto;
+    }
+
+    .articles-list .article-item {
+        width: 100%;
+        max-width: 600px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .shop-header h2, .contact-header h2 {
+        font-size: 2rem;
+    }
+
+    .shop-header p, .contact-header p {
+        font-size: 1rem;
+    }
+}
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            #menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                color: white;
+                font-size: 24px;
+                cursor: pointer;
+            }
+        }
+
+
